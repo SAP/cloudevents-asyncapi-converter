@@ -8,6 +8,9 @@ Find the official web application hosted on GitHub Pages at https://sap.github.i
 
 Find the official CLI application and library at https://github.com/SAP/cloudevents-asyncapi-converter.
 
+> [!NOTE]
+> CloudEvents® is a registered trademark of The Linux Foundation.
+
 
 ## Usage
 
