@@ -2,7 +2,7 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=node
 
 ### Project ###
-dist
+!dist
 
 ### Node ###
 # Logs
@@ -96,7 +96,7 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
-dist
+!dist
 
 # Gatsby files
 .cache/

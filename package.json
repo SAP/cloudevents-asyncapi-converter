@@ -3,25 +3,15 @@
   "version": "1.0.0",
   "description": "CloudEvents payload to AsyncAPI conversion tool for ABAP",
   "type": "module",
-  "main": "dist/index.js",
   "types": "lib/index.ts",
-  "bin": {
-    "ce2async": "dist/cli.js"
-  },
   "scripts": {
-    "build": "node esbuild.config.js",
-    "postinstall": "npm run build",
-    "test": "jest"
-  },
-  "dependencies": {
-    "yargs": "^17.7.2"
+    "build": "vite build",
+    "preview": "vite"
   },
   "devDependencies": {
-    "@types/jest": "^29.5.12",
     "@types/node": "^22.3.0",
-    "esbuild": "^0.23.0",
-    "jest": "^29.7.0",
-    "jest-esbuild": "^0.3.0",
-    "typescript": "^5.5.4"
+    "terser": "^5.31.6",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.0"
   }
 }
