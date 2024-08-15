@@ -6,6 +6,9 @@
 
 Find the official web application hosted on GitHub Pages at https://sap.github.io/cloudevents-asyncapi-converter.
 
+> [!NOTE]
+> CloudEvents® is a registered trademark of The Linux Foundation.
+
 
 ## Installation
 
@@ -24,7 +27,7 @@ Find the official web application hosted on GitHub Pages at https://sap.github.i
 npm install -g .
 ```
 
-> [!NOTE]
+> [!TIP]
 > If you wish to install and use the package locally (i.e. not system-wide), drop the `-g` flag and `.`.
 
 
@@ -52,7 +55,7 @@ ce2async [input path] [--output|-o path] [--version|-v version] [--help]
   - `--help`\
   Help page for this command.
 
-> [!NOTE]
+> [!TIP]
 > In case you only installed the package locally, you must run the command with `npx` from within the repository.
 
 #### Example
