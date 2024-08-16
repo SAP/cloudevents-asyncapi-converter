@@ -1,8 +1,8 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP/cloudevents-asyncapi-converter)](https://api.reuse.software/info/github.com/SAP/cloudevents-asyncapi-converter)
 
-# cloudevents-asyncapi-converter
+# Converter for CloudEvents to AsyncAPI
 
-*cloudevents-asyncapi-converter* is a Node.js library and CLI application that converts any event payload conforming to the [CloudEvents](https://github.com/cloudevents/spec) specification into an [AsyncAPI](https://www.asyncapi.com/docs) catalog which can be used in an ABAP environment to generate an [Event Consumption Model](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/generating-event-consumption-model).
+*Converter for CloudEvents to AsyncAPI* is a Node.js library and CLI application that converts any event payload conforming to the [CloudEvents](https://github.com/cloudevents/spec) specification into an [AsyncAPI](https://www.asyncapi.com/docs) catalog which can be used in an ABAP environment to generate an [Event Consumption Model](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/generating-event-consumption-model).
 
 Find the official web application hosted on GitHub Pages at https://sap.github.io/cloudevents-asyncapi-converter.
 
