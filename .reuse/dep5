@@ -25,5 +25,13 @@ Disclaimer: The code in this project may include calls to APIs ("API Calls") of
  parties the right to use of access any SAP External Product, through API Calls.
 
 Files: *
-Copyright:  2024 SAP SE or an SAP affiliate company and cloudevents-asyncapi-converter contributors
+Copyright: 2024 SAP SE or an SAP affiliate company and cloudevents-asyncapi-converter contributors
 License: Apache-2.0
+
+Files: src/css/boilerplate.css
+Copyright: 2018 HTML5 Boilerplate contributors
+License: MIT
+
+Files: src/css/normalize.css
+Copyright: 2012 Nicolas Gallagher, Jonathan Neal
+License: MIT
