@@ -24,11 +24,11 @@ Find the official web application hosted on GitHub Pages at https://sap.github.i
 3. Install the package and its dependencies
 
 ```bash
-npm install -g .
+npm install && npm install -g .
 ```
 
 > [!TIP]
-> If you wish to install and use the package locally (i.e. not system-wide), drop the `-g` flag and `.`.
+> If you wish to install and use the package locally (i.e. not system-wide), simply drop the second `npm install` command.
 
 
 ## Usage
@@ -37,7 +37,7 @@ npm install -g .
 
 To convert a CloudEvents payload in JSON format to a corresponding AsyncAPI catalog, this package offers the following command:
 
-```bash
+```
 ce2async [input path] [--output|-o path] [--version|-v version] [--help]
 ```
 
