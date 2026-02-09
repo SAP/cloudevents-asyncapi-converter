@@ -9,3 +9,13 @@ path = "**"
 precedence = "aggregate"
 SPDX-FileCopyrightText = "2026 SAP SE or an SAP affiliate company and cloudevents-asyncapi-converter contributors"
 SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = "src/css/boilerplate.css"
+SPDX-FileCopyrightText = "2018 HTML5 Boilerplate contributors"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "src/css/normalize.css"
+SPDX-FileCopyrightText = "2012 Nicolas Gallagher, Jonathan Neal"
+SPDX-License-Identifier = "MIT"
