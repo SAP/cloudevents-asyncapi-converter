@@ -45,8 +45,7 @@ export const CloudEventContext = {
         properties: {
             id: {
                 description: 'Identifies the event.',
-                type: 'string',
-                minLength: 1
+                type: 'string'
             },
             specversion: {
                 description: 'The version of the CloudEvents specification which the event uses.',
@@ -54,25 +53,17 @@ export const CloudEventContext = {
                 const: '1.0'
             },
             source: {
-                description: 'Identifies the context in which an event happened.',
+                description: 'Identifies the instance the event originated in.',
                 type: 'string',
-                format: 'uri-reference',
-                minLength: 1
+                format: 'uri-reference'
             },
             type: {
                 description: 'Describes the type of the event related to the source the event originated in.',
                 type: 'string',
-                minLength: 1
             },
             subject: {
                 description: 'Describes the subject of the event in the context of the source the event originated in.',
                 type: 'string',
-                minLength: 1
-            },
-            time: {
-                description: 'Timestamp of when the occurrence happened.',
-                type: 'string',
-                format: 'date-time'
             },
             datacontenttype: {
                 description: 'Content type of the event data.',
@@ -82,9 +73,13 @@ export const CloudEventContext = {
             dataschema: {
                 description: 'Identifies the schema that the event data adheres to.',
                 type: 'string',
-                format: 'uri',
-                minLength: 1
-            }
+                format: 'uri'
+            },
+            time: {
+                description: 'Timestamp of when the occurrence happened.',
+                type: 'string',
+                format: 'date-time'
+            },
         },
         required: ContextAttributes.Required,
     }
