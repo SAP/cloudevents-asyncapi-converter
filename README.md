@@ -112,6 +112,7 @@ The payload converter only generates a rough AsyncAPI catalog solely based on th
 * Properties with value `null` or empty objects `{}` in the payload are currently rejected by the converter.
 * String properties are not analyzed with regards to their data format and have none assigned.
 * Numeric properties always receive the data format `decimal` by the converter.
+* Arrays of mixed types are not supported; only the type of the first item is considered.
 * For compositions of objects, the converter is currently unable to link parent and child schemas through references. Instead, it treats them independently of each other.
 
   <details>
